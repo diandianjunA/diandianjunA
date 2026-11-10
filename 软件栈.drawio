@@ -36,7 +36,7 @@
           <mxGeometry height="60" width="400" x="140" y="770" as="geometry" />
         </mxCell>
         <mxCell id="kD_cZtqhbZrzWkT6dSDC-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="通信与设备层" vertex="1">
-          <mxGeometry height="30" width="100" x="100" y="540" as="geometry" />
+          <mxGeometry height="30" width="125" x="100" y="540" as="geometry" />
         </mxCell>
         <mxCell id="kD_cZtqhbZrzWkT6dSDC-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="235" width="470" x="-410" y="625" as="geometry" />
@@ -82,6 +82,35 @@
         </mxCell>
         <mxCell id="kD_cZtqhbZrzWkT6dSDC-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dvstor_gpu_kernels PQ 距离、L2 精排、Persistent Kernel" vertex="1">
           <mxGeometry height="60" width="320" x="-330" y="523" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="213" width="470" x="100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="离线构建与图划分依赖" vertex="1">
+          <mxGeometry height="30" width="170" x="100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-30" edge="1" parent="1" source="kD_cZtqhbZrzWkT6dSDC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Calibri;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCalibri;fontSize=13;fontColor=default;labelBackgroundColor=default;" target="kD_cZtqhbZrzWkT6dSDC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-31" edge="1" parent="1" source="kD_cZtqhbZrzWkT6dSDC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Calibri;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCalibri;fontSize=13;fontColor=default;labelBackgroundColor=default;" target="kD_cZtqhbZrzWkT6dSDC-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="433" />
+              <mxPoint x="390" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CPU Faiss&lt;div&gt;OPQ、ProductQuantizer、IndexFlat&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="125" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="METIS + GKlib 可选图分片" vertex="1">
+          <mxGeometry height="60" width="160" x="380" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BLAS + LAPACK 当前构建为 Intek MKL" vertex="1">
+          <mxGeometry height="60" width="185" x="125" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OpenMP" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="447" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
