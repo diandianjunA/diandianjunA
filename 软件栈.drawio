@@ -1,23 +1,54 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="ppXDdiV4J1mMLju2ap0E">
-    <mxGraphModel dx="723" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="603" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="E-elWYvHQW2mz-5jSA5n-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="300" width="470" x="120" y="440" as="geometry" />
+          <mxGeometry height="320" width="470" x="100" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-5" edge="1" parent="1" source="E-elWYvHQW2mz-5jSA5n-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Calibri;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCalibri;fontSize=13;fontColor=default;labelBackgroundColor=default;" target="E-elWYvHQW2mz-5jSA5n-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E-elWYvHQW2mz-5jSA5n-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DOCA GPUNetIO&lt;div&gt;libdoca_gpunetio / verbs / common / rdma&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="170" x="160" y="470" as="geometry" />
+          <mxGeometry height="70" width="170" x="140" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-4" edge="1" parent="1" source="E-elWYvHQW2mz-5jSA5n-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Calibri;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCalibri;fontSize=13;fontColor=default;labelBackgroundColor=default;" target="E-elWYvHQW2mz-5jSA5n-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E-elWYvHQW2mz-5jSA5n-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CUDA Toolkit libcudart + libcuda + libcu++" vertex="1">
-          <mxGeometry height="70" width="170" x="375" y="470" as="geometry" />
+          <mxGeometry height="70" width="170" x="355" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-3" edge="1" parent="1" source="E-elWYvHQW2mz-5jSA5n-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.214;entryY=0.006;entryDx=0;entryDy=0;fontFamily=Calibri;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCalibri;fontSize=13;fontColor=default;labelBackgroundColor=default;entryPerimeter=0;" target="E-elWYvHQW2mz-5jSA5n-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="770.43" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="E-elWYvHQW2mz-5jSA5n-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="libibverbs + libmlx5&lt;div&gt;libnl-3 / libnl-route-3&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="185" x="255" y="570" as="geometry" />
+          <mxGeometry height="50" width="170" x="140" y="690" as="geometry" />
         </mxCell>
         <mxCell id="E-elWYvHQW2mz-5jSA5n-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Linux / glibc / POSIX&lt;div&gt;Threads AVX2 CPU、NVIDIA GPU、ConnectX RDMA NIC&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="185" x="255" y="650" as="geometry" />
+          <mxGeometry height="60" width="400" x="140" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="通信与设备层" vertex="1">
+          <mxGeometry height="30" width="100" x="140" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="470" x="100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="项目公共层" vertex="1">
+          <mxGeometry height="30" width="100" x="100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="rdma_library&lt;div&gt;QP、MR、RDMA Read/Write/Send 连接管理&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Schema 索引、Vamana 图、配置、更新协议&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="350" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="头文件库 nlohmann/json + ankerl::unordered_dense&lt;div&gt;moodycamel::concurrentqueue&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="120" y="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
