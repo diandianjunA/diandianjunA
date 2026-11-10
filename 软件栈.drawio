@@ -112,6 +112,15 @@
         <mxCell id="kD_cZtqhbZrzWkT6dSDC-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OpenMP" vertex="1">
           <mxGeometry height="60" width="120" x="330" y="447" as="geometry" />
         </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="980" x="-410" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="应用与运行时" vertex="1">
+          <mxGeometry height="30" width="140" x="-410" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kD_cZtqhbZrzWkT6dSDC-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Python + Shell" vertex="1">
+          <mxGeometry height="40" width="140" x="-380" y="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
