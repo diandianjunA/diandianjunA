@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="ppXDdiV4J1mMLju2ap0E">
+    <mxGraphModel dx="723" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E-elWYvHQW2mz-5jSA5n-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="470" x="120" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="E-elWYvHQW2mz-5jSA5n-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DOCA GPUNetIO&lt;div&gt;libdoca_gpunetio / verbs / common / rdma&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="160" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="E-elWYvHQW2mz-5jSA5n-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CUDA Toolkit libcudart + libcuda + libcu++" vertex="1">
+          <mxGeometry height="70" width="170" x="375" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="E-elWYvHQW2mz-5jSA5n-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="libibverbs + libmlx5&lt;div&gt;libnl-3 / libnl-route-3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="185" x="255" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="E-elWYvHQW2mz-5jSA5n-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="185" x="255" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
