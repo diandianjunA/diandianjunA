@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="E-elWYvHQW2mz-5jSA5n-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="290" width="470" x="120" y="440" as="geometry" />
+          <mxGeometry height="300" width="470" x="120" y="440" as="geometry" />
         </mxCell>
         <mxCell id="E-elWYvHQW2mz-5jSA5n-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DOCA GPUNetIO&lt;div&gt;libdoca_gpunetio / verbs / common / rdma&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="170" x="160" y="470" as="geometry" />
@@ -16,7 +16,7 @@
         <mxCell id="E-elWYvHQW2mz-5jSA5n-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="libibverbs + libmlx5&lt;div&gt;libnl-3 / libnl-route-3&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="185" x="255" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="E-elWYvHQW2mz-5jSA5n-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="E-elWYvHQW2mz-5jSA5n-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Linux / glibc / POSIX&lt;div&gt;Threads AVX2 CPU、NVIDIA GPU、ConnectX RDMA NIC&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="185" x="255" y="650" as="geometry" />
         </mxCell>
       </root>
